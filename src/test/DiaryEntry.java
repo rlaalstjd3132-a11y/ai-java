@@ -7,7 +7,7 @@ public class DiaryEntry {
     private String title;
     private String content;
     private Timestamp createdAt;
-    private JLabe2 name; //에러 있는 코드
+    private JLabe3 name; //에러 있는 코드
     public DiaryEntry() {}
 
     public DiaryEntry(String title, String content) {
