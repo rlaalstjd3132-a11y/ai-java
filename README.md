@@ -10,6 +10,17 @@
 
 ---
 
+```mermaid
+flowchart TD
+A([시작]) --> B{로그인?}
+B -- 예 --> C[대시보드]
+B -- 아니오 --> D[로그인 페이지]
+C --> E([종료])
+D --> E
+
+```
+
+
 ```markdown
 # SimpleCalculator - Java Swing GUI 계산기
 
